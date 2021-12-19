@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubermelon - Buy a Melon</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/styles.css">
+
+    <!-- Add JavaScript libraries here -->
+    <!-- Copy the following script tags and paste them below the CSS imports in templates/index.html: -->
+
+    <!-- Babel: used to transpile JSX to JavaScript that the browser can run -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- React: you can't write React components without React -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <!-- React Router: this library makes it easier to create a React app with multiple pages and valid links -->
+    <script src="https://unpkg.com/react-router-dom@5.2.0/umd/react-router-dom.js"></script>
+
+  </head>
+  <body>
+    <!-- To import these .jsx in your HTML, add the following script tags before </body> in templates/index.html: -->
+    <script src="/static/js/Components.jsx" type="text/jsx"></script>
+    <script src="/static/js/App.jsx" type="text/jsx"></script>
+
+    <div id="root">
+      <p>
+        If you see this, you probably forgot to import a
+        <code>&lt;script&gt;</code> tag somewhere.
+      </p>
+    </div>
+  </body>
+</html>
